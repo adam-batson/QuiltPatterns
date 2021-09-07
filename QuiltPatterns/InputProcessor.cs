@@ -41,6 +41,7 @@ namespace QuiltPatterns
                 case "l": // Print the list of shapes with color and area.
                     if (shapes.Count != 0)
                     {
+                        Console.WriteLine("The patterns you have stored are: ");
                         foreach (var shape in shapes)
                         {
                             Console.WriteLine($"A {shape.Color} {shape.Name} with area {shape.Area:0.###} square feet.");
